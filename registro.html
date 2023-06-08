@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/f570856479.js" crossorigin="anonymous"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/page-icon.png" type="image/x-icon" />
+</head>
+<body>
+    <header>
+        <section class="menu">
+            <nav class="menu__nav container">
+                <a class="menu__logo-box" href="./index.html">
+                    <img class="menu__logo-img" src="./img/Logo.svg" alt="alurageek">
+                </a>
+                <div class="menu__search-box">
+                    <input type="search" class="menu__search-input" placeholder="O que você deseja procurar?">
+                    <i class="fa-solid fa-magnifying-glass menu__search-icon"></i>
+                </div>
+                <div class="menu__cart-login-box">
+                    <a class="menu__button" href="./index.html">Retornar <i class="fa-solid fa-arrow-left"></i></a>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        
+        <section class="login">
+            <div class="login__container container">
+                <h1 class="login__form-title">Registro completo</h1>
+                <i class="fa-solid fa-circle-check medium-icon"></i>
+                <a class="login__back" href="./admin.html">Retornar <i class="fa-solid fa-arrow-left"></i></a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <img class="footer__logo-img" src="./img/Logo.svg" alt="alurageek">
+            <ul class="footer__list">
+                <li class="footer__item-list"><a href="#">Quem somos</a></li>
+                <li class="footer__item-list"><a href="#">Política de privacidade</a></li>
+                <li class="footer__item-list"><a href="#">Programa de fidelidade</a></li>
+                <li class="footer__item-list"><a href="#">Nossas lojas</a></li>
+                <li class="footer__item-list"><a href="#">Franquias</a></li>
+                <li class="footer__item-list"><a href="#">Anuncie aqui</a></li>
+            </ul>
+            <div class="footer__form-box">
+                <h3 class="footer__form-title">Fale conosco</h3>
+                <form class="footer__form" action="./mensagem.html">
+                    <label class="footer__form-label" for="name" >
+                        <p class="footer__form-field">Nome:</p>
+                        <input class="footer__form-input form-input" type="text" id="name" name="name" autocomplete="off" required maxlength="40">
+                        <span class="input-message-error">Este campo não é válido</span>
+                    </label>
+                    <label class="footer__form-label" for="message">
+                        <p class="footer__form-field">Mensagem:</p>
+                        <textarea class="footer__form-input form-input" type="text" id="message" name="message" rows="5" autocomplete="off" required maxlength="120"></textarea>
+                        <span class="input-message-error">Este campo não é válido</span>
+                    </label>
+                    <button class="footer__form-submit" type="submit" id="submit">Enviar mensagem</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer__developed">
+            <a href="#">Developed by Iglyson Silva</a>
+        </div>
+    </footer>
+    <script src="./js/searchButton.js"></script>
+    <script src="./js/forms.js"></script>
+</body>
+</html>

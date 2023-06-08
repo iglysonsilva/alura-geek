@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Friday AluraGeek</title>
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/f570856479.js" crossorigin="anonymous"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/page-icon.png" type="image/x-icon" />
+</head>
+
+<script>
+    function imgErrorHTML(image) {
+        image.src = './img/default-img.png';
+    }
+</script>
+
+<body>
+    <header>
+        <section class="menu">
+            <nav class="menu__nav container">
+                <a class="menu__logo-box" href="./index.html">
+                    <img class="menu__logo-img" src="./img/Logo.svg" alt="alurageek">
+                </a>
+                <div class="menu__search-box">
+                    <input type="search" class="menu__search-input" placeholder="O que você deseja procurar?">
+                    <i class="fa-solid fa-magnifying-glass menu__search-icon"></i>
+                </div>
+                <div class="menu__cart-login-box">
+                    <a class="menu__button" href="./login.html">Entrar <i class="fa-solid fa-user"></i></a>
+                </div>
+            </nav>
+        </section>
+
+        <section class="hero">
+            <div class="hero__banner">
+                <div class="hero__title-box container">
+                    <h1 class="hero_title">Desconto o mês inteiro</h1>
+                    <h3 class="hero_subtitle">Produtos com até 70% de desconto</h3>
+                    <a class="hero__action-button" href="#">Ver produtos</a>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="main__eshop">
+        <section class="category container">
+            <div class="category__title-box">
+                <h2 class="category__title">Jogos</h2>
+                <a class="category__seemore" href="#">
+                    <span>Ver tudo</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="category__carousel">
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/game-1.jpg" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Jogos</p>
+                        <h4 class="category__name">Crash Bandicoot N.Sane - Trilogia</h4>
+                        <p class="category__price">R$ 159,99</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/game-2.png" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Jogos</p>
+                        <h4 class="category__name">Horizon Zero Dawn</h4>
+                        <p class="category__price">R$ 99,50</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/game-3.png" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Jogos</p>
+                        <h4 class="category__name">God of War</h4>
+                        <p class="category__price">R$ 99,50</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/game-4.jpg" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Jogos</p>
+                        <h4 class="category__name">Battlefield</h4>
+                        <p class="category__price">R$ 198,99</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/game-5.jpg" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Jogos</p>
+                        <h4 class="category__name">Assassin's Creed Odyssey</h4>
+                        <p class="category__price">R$ 199,99</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/game-6.jpg" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Jogos</p>
+                        <h4 class="category__name">Shadow of the Tomb Raider Definitive Edition</h4>
+                        <p class="category__price">R$ 199,50</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="category container">
+            <div class="category__title-box">
+                <h2 class="category__title">Livros</h2>
+                <a class="category__seemore" href="#">
+                    <span>Ver tudo</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="category__carousel">
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/livro-1.jpg" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Livros</p>
+                        <h4 class="category__name">O Colecionador</h4>
+                        <p class="category__price">R$ 57,68</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/livro-2.png" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Livros</p>
+                        <h4 class="category__name">Os Goonies - Special Edition</h4>
+                        <p class="category__price">R$ 55,53</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/livro-3.jpg" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Livros</p>
+                        <h4 class="category__name">Drácula - Dark Edition</h4>
+                        <p class="category__price">R$ 67,82</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/livro-4.jpg" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Livros</p>
+                        <h4 class="category__name">Frankenstein</h4>
+                        <p class="category__price">R$ 58,87</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/livro-5.jpg" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Livros</p>
+                        <h4 class="category__name">A Pequena Sereia e o Reino das Ilusões</h4>
+                        <p class="category__price">R$ 49,95</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/livro-6.png" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Livros</p>
+                        <h4 class="category__name">O Jardim Secreto</h4>
+                        <p class="category__price">R$ 79,90</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="category container">
+            <div class="category__title-box">
+                <h2 class="category__title">Colecionáveis</h2>
+                <a class="category__seemore" href="#">
+                    <span>Ver tudo</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="category__carousel">
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/colecionaveis-1.jpg" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Colecionáveis</p>
+                        <h4 class="category__name">Figure One Piece - Trafalgar Law</h4>
+                        <p class="category__price">R$ 108,64</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/colecionaveis-2.jpg" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Colecionáveis</p>
+                        <h4 class="category__name">Funko Pop - Thor Ragnarok</h4>
+                        <p class="category__price">R$ 216,27</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/colecionaveis-3.jpg" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Colecionáveis</p>
+                        <h4 class="category__name">Figure Cavaleiros do Zodíaco - Saga de Gêmeos</h4>
+                        <p class="category__price">R$ 3.300</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/colecionaveis-4.jpg" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Colecionáveis</p>
+                        <h4 class="category__name">Funko Pop Attack on Titan - Eren Jaeger</h4>
+                        <p class="category__price">R$ 164,90</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/colecionaveis-5.png" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Colecionáveis</p>
+                        <h4 class="category__name">Figure - Capitão América</h4>
+                        <p class="category__price">R$ 375,00</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+                <a class="category__product" href="#">
+                    <img class="category__img" src="./img/colecionaveis-6.png" alt="alurageek" onerror="imgErrorHTML(this)">
+                    <div class="category__text">
+                        <p class="category__category">Colecionáveis</p>
+                        <h4 class="category__name">Funko Pop - Harry Potter</h4>
+                        <p class="category__price">R$ 109,90</p>
+                        <p class="category__detail">Ver produto <i class="fa-solid fa-arrow-right-to-bracket"></i></p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <img class="footer__logo-img" src="./img/Logo.svg" alt="alurageek">
+            <ul class="footer__list">
+                <li class="footer__item-list"><a href="#">Quem somos</a></li>
+                <li class="footer__item-list"><a href="#">Política de privacidade</a></li>
+                <li class="footer__item-list"><a href="#">Programa de fidelidade</a></li>
+                <li class="footer__item-list"><a href="#">Nossas lojas</a></li>
+                <li class="footer__item-list"><a href="#">Franquias</a></li>
+                <li class="footer__item-list"><a href="#">Anuncie aqui</a></li>
+            </ul>
+            <div class="footer__form-box">
+                <h3 class="footer__form-title">Fale conosco</h3>
+                <form class="footer__form" action="./mensagem.html">
+                    <label class="footer__form-label" for="name" >
+                        <p class="footer__form-field">Nome:</p>
+                        <input class="footer__form-input form-input" type="text" id="name" name="name" autocomplete="off" required maxlength="40">
+                        <span class="input-message-error">Este campo não é válido</span>
+                    </label>
+                    <label class="footer__form-label" for="message">
+                        <p class="footer__form-field">Mensagem:</p>
+                        <textarea class="footer__form-input form-input" type="text" id="message" name="message" rows="5" autocomplete="off" required maxlength="120"></textarea>
+                        <span class="input-message-error">Este campo não é válido</span>
+                    </label>
+                    <button class="footer__form-submit" type="submit" id="submit">Enviar mensagem</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer__developed">
+            <a href="#" target="_blank">Developed by Iglyson Silva</a>
+        </div>
+    </footer>
+    <script src="./controllers/indexProducts.js" type="module"></script>
+    <script src="./js/searchButton.js"></script>
+    <script src="./js/forms.js"></script>
+    <script src="./js/touchSlider.js"></script>
+</body>
+</html>
+<!-- 
+https://fs-prod-cdn.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_YoshisCraftedWorld_image500w.jpg
+https://fs-prod-cdn.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_AnimalCrossingNewHorizons_image500w.jpg
+https://fs-prod-cdn.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_Bayonetta_SpecialEdition_image500w.jpg
+-->
