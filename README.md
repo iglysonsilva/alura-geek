@@ -6,7 +6,7 @@ Neste repositório, você encontrará uma página de e-commerce (versão do admi
 
 
 
-## 💻 Funcionalidade
+## Funcionalidade
 
 - Desenvolvimento das estruturas e estilizações utilizando HTML e CSS.
 - Validações dos formulários (login, contato e cadastro de produtos), criação de rotas e controllers e implementação do banco de dados.
@@ -24,7 +24,7 @@ Senha: teste123
 
 
 
-## 👨‍💻 Tecnologia Utilizadas
+## 💻 Tecnologia Utilizadas
 
  - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
  - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
