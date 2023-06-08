@@ -1,12 +1,12 @@
 # alura-geek
 
-## Programa ONE - Oracle Next Education | Desafio - Challenge
+### Programa ONE - Oracle Next Education | Desafio - Challenge
 
 Neste repositório, você encontrará uma página de e-commerce (versão do administrador) para uma loja online de produtos geek. Essa página foi desenvolvida como resultado do Challenge Front-End do programa Alura ONE, em parceria com a Oracle Next Education.
 
 
 
-## 💻 Funcionalidade
+### 💻 Funcionalidade
 
 - Desenvolvimento das estruturas e estilizações utilizando HTML e CSS.
 - Validações dos formulários (login, contato e cadastro de produtos), criação de rotas e controllers e implementação do banco de dados.
@@ -15,7 +15,7 @@ Neste repositório, você encontrará uma página de e-commerce (versão do admi
 
 
 
-## 🔐 Para fazer o login de administrador na página, utilize os seguintes dados:
+### 🔐 Para fazer o login de administrador na página, utilize os seguintes dados:
 
 ```
 Emmail: exemplo@alurageek.com
@@ -24,7 +24,7 @@ Senha: teste123
 
 
 
-## 👨‍💻 Tecnologia Utilizadas
+### 👨‍💻 Tecnologia Utilizadas
 
  - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
  - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
